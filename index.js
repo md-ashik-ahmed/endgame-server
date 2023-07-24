@@ -34,18 +34,14 @@ async function run() {
     const usersCollection = client.db('Endgame').collection('users');
 
 
-    // app.post('/users', async(req, res) =>{
-    //     const user = req.body;
-    //     // console.log(user)
-    //     const query = {email : user.email}
-    //     const existingUser = await usersCollection.findOne(query)
-    //     if(existingUser){
-    //       return res.send({message : 'user already exists'})
-    //     }
-    //     const result = await usersCollection.insertOne(user)
-    //     res.send(result)
-    // });
-
+  
+    app.get("/college/:email", async(req, res) =>{
+      console.log(req.params.email);
+      const result = await usersCollection
+      .find({email : req.params.email})
+      .toArray()
+      res.send(result)
+  });
 
 
 
@@ -60,23 +56,32 @@ async function run() {
   })
 
 
+  app.post('/users', async(req, res) =>{
+    const user = req.body;
+    // console.log(user)
+    const query = {email : user.email}
+    const existingUser = await usersCollection.findOne(query)
+    if(existingUser){
+      return res.send({message : 'user already exists'})
+    }
+    const result = await usersCollection.insertOne(user)
+    res.send(result)
+});
 
 
-
-    // app.post("/postToys", async (req, res) => {
-    //     const body = req.body;
-        
-    //     console.log(body);
-    //     const result = await usersCollection.insertOne(user);
-    //     if (result?.insertedId) {
-    //       return res.status(200).send(result);
-    //     } else {
-    //       return res.status(404).send({
-    //         message: "can not insert try again leter",
-    //         status: false,
-    //       });
-    //     }
-    //   });
+  app.post("/add", async (req, res) => {
+    const body = req.body;
+    console.log(body);
+    const result = await usersCollection.insertOne(body);
+    if (result?.insertedId) {
+      return res.status(200).send(result);
+    } else {
+      return res.status(404).send({
+        message: "can not insert try again leter",
+        status: false,
+      });
+    }
+  });
 
 
     // Send a ping to confirm a successful connection

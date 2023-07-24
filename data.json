@@ -4,7 +4,7 @@
     "college_name": "Sunrise College",
     "rating": 4.3,
     "admission_date": "2023-08-25",
-    "image_url": "https://example.com/sunrise_college.jpg",
+    "image_url": "https://i.ibb.co/PtMGRRZ/download-1.jpg",
     "events": [
       {
         "event_name": "Welcome Bash",
@@ -45,11 +45,11 @@
     }
   },
   {
-    "id": 7,
+    "id": 11,
     "college_name": "Emerald University",
     "rating": 4.7,
     "admission_date": "2023-08-20",
-    "image_url": "https://example.com/emerald_university.jpg",
+    "image_url": "https://i.ibb.co/QpMf4mz/download-2.jpg",
     "events": [
       {
         "event_name": "Opening Ceremony",
@@ -90,11 +90,101 @@
     }
   },
   {
+    "id": 7,
+    "college_name": "Emerald University",
+    "rating": 4.7,
+    "admission_date": "2023-08-20",
+    "image_url": "https://i.ibb.co/RNqBCfC/images-2.jpg",
+    "events": [
+      {
+        "event_name": "Opening Ceremony",
+        "date": "2023-09-05",
+        "description": "Grand opening event to welcome new and returning students."
+      },
+      {
+        "event_name": "Tech Hackathon",
+        "date": "2023-10-30",
+        "description": "An intense coding competition to develop innovative tech solutions."
+      },
+      {
+        "event_name": "International Food Fest",
+        "date": "2024-03-25",
+        "description": "Explore global cuisines and cultural delicacies at the food fest."
+      }
+    ],
+    "research_history": {
+      "total_projects": 130,
+      "research_areas": ["Computer Science", "Chemistry", "Environmental Science", "Economics"],
+      "notable_projects": [
+        {
+          "project_title": "AI-Powered Environmental Monitoring",
+          "faculty_lead": "Dr. Rebecca Green",
+          "publication_date": "2022-10-15",
+          "citation_count": 280
+        },
+        {
+          "project_title": "Economic Impact of Climate Change",
+          "faculty_lead": "Dr. Andrew Carter",
+          "publication_date": "2023-02-10",
+          "citation_count": 190
+        }
+      ]
+    },
+    "sports": {
+      "teams": ["Volleyball", "Soccer", "Tennis", "Gymnastics"]
+    }
+  },
+  {
+    "id": 10,
+    "college_name": "Tranquil University",
+    "rating": 4.4,
+    "admission_date": "2023-09-01",
+    "image_url": "https://i.ibb.co/grjRCtL/download.jpg",
+    "events": [
+      {
+        "event_name": "Academic Kickoff",
+        "date": "2023-09-15",
+        "description": "Start the semester with informative sessions and academic introductions."
+      },
+      {
+        "event_name": "Hackerspace Workshop",
+        "date": "2023-11-18",
+        "description": "A collaborative workshop for students to work on tech projects."
+      },
+      {
+        "event_name": "Cultural Showcase",
+        "date": "2024-04-05",
+        "description": "Celebrate diversity through cultural performances, music, and food."
+      }
+    ],
+    "research_history": {
+      "total_projects": 110,
+      "research_areas": ["Engineering", "Psychology", "Literature", "Political Science"],
+      "notable_projects": [
+        {
+          "project_title": "Advancements in Renewable Technologies",
+          "faculty_lead": "Dr. Kevin Turner",
+          "publication_date": "2022-09-28",
+          "citation_count": 230
+        },
+        {
+          "project_title": "Social Psychology and Human Behavior",
+          "faculty_lead": "Dr. Lisa Walker",
+          "publication_date": "2023-03-25",
+          "citation_count": 180
+        }
+      ]
+    },
+    "sports": {
+      "teams": ["Football", "Basketball", "Badminton", "Athletics"]
+    }
+  },
+  {
     "id": 8,
     "college_name": "Tranquil University",
     "rating": 4.4,
     "admission_date": "2023-09-01",
-    "image_url": "https://example.com/tranquil_university.jpg",
+    "image_url": "https://i.ibb.co/Jm6BySD/images-3.jpg",
     "events": [
       {
         "event_name": "Academic Kickoff",
@@ -139,7 +229,7 @@
     "college_name": "Oceanview College",
     "rating": 4.6,
     "admission_date": "2023-08-10",
-    "image_url": "https://example.com/oceanview_college.jpg",
+    "image_url": "https://i.ibb.co/8zWPjYD/images-1.jpg",
     "events": [
       {
         "event_name": "Freshers' Welcome",
