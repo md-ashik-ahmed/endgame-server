@@ -1,0 +1,183 @@
+[
+  {
+    "id": 6,
+    "college_name": "Sunrise College",
+    "rating": 4.3,
+    "admission_date": "2023-08-25",
+    "image_url": "https://example.com/sunrise_college.jpg",
+    "events": [
+      {
+        "event_name": "Welcome Bash",
+        "date": "2023-09-10",
+        "description": "A vibrant welcome party to kickstart the academic year."
+      },
+      {
+        "event_name": "Science Symposium",
+        "date": "2023-11-08",
+        "description": "Showcasing groundbreaking scientific research and discoveries."
+      },
+      {
+        "event_name": "Cultural Exchange",
+        "date": "2024-03-20",
+        "description": "An event to celebrate cultural diversity and foster mutual understanding."
+      }
+    ],
+    "research_history": {
+      "total_projects": 100,
+      "research_areas": ["Physics", "Psychology", "Sociology", "Business"],
+      "notable_projects": [
+        {
+          "project_title": "Advancements in Renewable Energy",
+          "faculty_lead": "Dr. Mark Foster",
+          "publication_date": "2022-08-25",
+          "citation_count": 210
+        },
+        {
+          "project_title": "Human Cognitive Development",
+          "faculty_lead": "Dr. Laura Adams",
+          "publication_date": "2023-04-30",
+          "citation_count": 150
+        }
+      ]
+    },
+    "sports": {
+      "teams": ["Cricket", "Basketball", "Swimming", "Table Tennis"]
+    }
+  },
+  {
+    "id": 7,
+    "college_name": "Emerald University",
+    "rating": 4.7,
+    "admission_date": "2023-08-20",
+    "image_url": "https://example.com/emerald_university.jpg",
+    "events": [
+      {
+        "event_name": "Opening Ceremony",
+        "date": "2023-09-05",
+        "description": "Grand opening event to welcome new and returning students."
+      },
+      {
+        "event_name": "Tech Hackathon",
+        "date": "2023-10-30",
+        "description": "An intense coding competition to develop innovative tech solutions."
+      },
+      {
+        "event_name": "International Food Fest",
+        "date": "2024-03-25",
+        "description": "Explore global cuisines and cultural delicacies at the food fest."
+      }
+    ],
+    "research_history": {
+      "total_projects": 130,
+      "research_areas": ["Computer Science", "Chemistry", "Environmental Science", "Economics"],
+      "notable_projects": [
+        {
+          "project_title": "AI-Powered Environmental Monitoring",
+          "faculty_lead": "Dr. Rebecca Green",
+          "publication_date": "2022-10-15",
+          "citation_count": 280
+        },
+        {
+          "project_title": "Economic Impact of Climate Change",
+          "faculty_lead": "Dr. Andrew Carter",
+          "publication_date": "2023-02-10",
+          "citation_count": 190
+        }
+      ]
+    },
+    "sports": {
+      "teams": ["Volleyball", "Soccer", "Tennis", "Gymnastics"]
+    }
+  },
+  {
+    "id": 8,
+    "college_name": "Tranquil University",
+    "rating": 4.4,
+    "admission_date": "2023-09-01",
+    "image_url": "https://example.com/tranquil_university.jpg",
+    "events": [
+      {
+        "event_name": "Academic Kickoff",
+        "date": "2023-09-15",
+        "description": "Start the semester with informative sessions and academic introductions."
+      },
+      {
+        "event_name": "Hackerspace Workshop",
+        "date": "2023-11-18",
+        "description": "A collaborative workshop for students to work on tech projects."
+      },
+      {
+        "event_name": "Cultural Showcase",
+        "date": "2024-04-05",
+        "description": "Celebrate diversity through cultural performances, music, and food."
+      }
+    ],
+    "research_history": {
+      "total_projects": 110,
+      "research_areas": ["Engineering", "Psychology", "Literature", "Political Science"],
+      "notable_projects": [
+        {
+          "project_title": "Advancements in Renewable Technologies",
+          "faculty_lead": "Dr. Kevin Turner",
+          "publication_date": "2022-09-28",
+          "citation_count": 230
+        },
+        {
+          "project_title": "Social Psychology and Human Behavior",
+          "faculty_lead": "Dr. Lisa Walker",
+          "publication_date": "2023-03-25",
+          "citation_count": 180
+        }
+      ]
+    },
+    "sports": {
+      "teams": ["Football", "Basketball", "Badminton", "Athletics"]
+    }
+  },
+  {
+    "id": 9,
+    "college_name": "Oceanview College",
+    "rating": 4.6,
+    "admission_date": "2023-08-10",
+    "image_url": "https://example.com/oceanview_college.jpg",
+    "events": [
+      {
+        "event_name": "Freshers' Welcome",
+        "date": "2023-09-18",
+        "description": "Warmly welcoming new students to the college community."
+      },
+      {
+        "event_name": "Health and Wellness Fair",
+        "date": "2023-11-22",
+        "description": "Promoting a healthy lifestyle through various wellness activities."
+      },
+      {
+        "event_name": "International Dance Night",
+        "date": "2024-03-30",
+        "description": "A night of cultural dances from around the world."
+      }
+    ],
+    "research_history": {
+      "total_projects": 120,
+      "research_areas": ["Biology", "Marine Science", "Environmental Studies", "Education"],
+      "notable_projects": [
+        {
+          "project_title": "Marine Biodiversity Conservation",
+          "faculty_lead": "Dr. Sarah Evans",
+          "publication_date": "2022-12-12",
+          "citation_count": 260
+        },
+        {
+          "project_title": "Innovative Teaching Strategies",
+          "faculty_lead": "Dr. John Mitchell",
+          "publication_date": "2023-05-20",
+          "citation_count": 200
+        }
+      ]
+    },
+    "sports": {
+      "teams": ["Swimming", "Soccer", "Volleyball", "Tennis"]
+    }
+  }
+]
+  
